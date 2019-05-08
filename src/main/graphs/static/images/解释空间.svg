@@ -1,0 +1,424 @@
+<svg width="1750pt" height="626pt"
+ viewBox="0.00 0.00 1749.71 625.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 621.5279)">
+<title>%3</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-621.5279 1745.7124,-621.5279 1745.7124,4 -4,4"/>
+<!-- 结论:[&quot;建议复电&quot;]\n支持证据:[&quot;复电&quot;]\n非支持证据:[&quot;不复电&quot;,&quot;强送&quot;] -->
+<g id="node1" class="node">
+<title>结论:[&quot;建议复电&quot;]\n支持证据:[&quot;复电&quot;]\n非支持证据:[&quot;不复电&quot;,&quot;强送&quot;]</title>
+<polygon fill="none" stroke="#000000" points="499.8955,-541.3959 304.7481,-541.3959 304.7481,-474.7958 499.8955,-474.7958 499.8955,-541.3959"/>
+<text text-anchor="middle" x="402.3218" y="-526.2958" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;建议复电&quot;]</text>
+<text text-anchor="middle" x="402.3218" y="-506.6958" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;复电&quot;]</text>
+<text text-anchor="middle" x="402.3218" y="-487.0959" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[&quot;不复电&quot;,&quot;强送&quot;]</text>
+</g>
+<!-- &quot;复电&quot; -->
+<g id="node2" class="node">
+<title>&quot;复电&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="306.3218" cy="-405.1799" rx="39.3904" ry="19.5322"/>
+<text text-anchor="middle" x="306.3218" y="-403.7799" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;复电&quot;</text>
+</g>
+<!-- 结论:[&quot;建议复电&quot;]\n支持证据:[&quot;复电&quot;]\n非支持证据:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;复电&quot; -->
+<g id="edge2" class="edge">
+<title>结论:[&quot;建议复电&quot;]\n支持证据:[&quot;复电&quot;]\n非支持证据:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;复电&quot;:n</title>
+<path fill="none" stroke="#000000" d="M335.1249,-474.6907C321.7642,-464.0562 310.7792,-450.83 307.3978,-434.937"/>
+<polygon fill="#000000" stroke="#000000" points="306.3218,-424.696 311.8422,-434.171 306.8443,-429.6686 307.3669,-434.6413 307.3669,-434.6413 307.3669,-434.6413 306.8443,-429.6686 302.8915,-435.1115 306.3218,-424.696 306.3218,-424.696"/>
+<text text-anchor="middle" x="320.2695" y="-445.496" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- &quot;不复电&quot; -->
+<g id="node27" class="node">
+<title>&quot;不复电&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="808.3218" cy="-405.1799" rx="49.1886" ry="19.5322"/>
+<text text-anchor="middle" x="808.3218" y="-403.7799" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;不复电&quot;</text>
+</g>
+<!-- 结论:[&quot;建议复电&quot;]\n支持证据:[&quot;复电&quot;]\n非支持证据:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;不复电&quot; -->
+<g id="edge3" class="edge">
+<title>结论:[&quot;建议复电&quot;]\n支持证据:[&quot;复电&quot;]\n非支持证据:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;不复电&quot;:n</title>
+<path fill="none" stroke="#000000" d="M424.1639,-474.5658C434.0405,-462.3052 446.8383,-449.7265 461.6597,-442.696 477.3822,-435.2381 746.9912,-442.2856 799.4992,-429.5644"/>
+<polygon fill="#000000" stroke="#000000" points="808.3218,-424.696 801.7404,-433.4674 803.944,-427.1117 799.5663,-429.5274 799.5663,-429.5274 799.5663,-429.5274 803.944,-427.1117 797.3922,-425.5874 808.3218,-424.696 808.3218,-424.696"/>
+<text text-anchor="middle" x="463.6528" y="-445.496" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;</text>
+</g>
+<!-- &quot;强送&quot; -->
+<g id="node28" class="node">
+<title>&quot;强送&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="402.3218" cy="-405.1799" rx="39.3904" ry="19.5322"/>
+<text text-anchor="middle" x="402.3218" y="-403.7799" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;强送&quot;</text>
+</g>
+<!-- 结论:[&quot;建议复电&quot;]\n支持证据:[&quot;复电&quot;]\n非支持证据:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;强送&quot; -->
+<g id="edge4" class="edge">
+<title>结论:[&quot;建议复电&quot;]\n支持证据:[&quot;复电&quot;]\n非支持证据:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;强送&quot;:n</title>
+<path fill="none" stroke="#000000" d="M402.3218,-474.4151C402.3218,-462.31 402.3218,-448.315 402.3218,-434.8497"/>
+<polygon fill="#000000" stroke="#000000" points="402.3218,-424.696 406.8219,-434.696 402.3218,-429.696 402.3219,-434.696 402.3219,-434.696 402.3219,-434.696 402.3218,-429.696 397.8219,-434.6961 402.3218,-424.696 402.3218,-424.696"/>
+<text text-anchor="middle" x="404.6528" y="-445.496" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;存在天气风险&quot;]\n非支持证据:[] -->
+<g id="node3" class="node">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;存在天气风险&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="592.4657,-348.564 412.1779,-348.564 412.1779,-281.9639 592.4657,-281.9639 592.4657,-348.564"/>
+<text text-anchor="middle" x="502.3218" y="-333.4638" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="502.3218" y="-313.8639" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;存在天气风险&quot;]</text>
+<text text-anchor="middle" x="502.3218" y="-294.264" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;存在天气风险&quot; -->
+<g id="node13" class="node">
+<title>&quot;存在天气风险&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="502.3218" cy="-212.348" rx="78.5859" ry="19.5322"/>
+<text text-anchor="middle" x="502.3218" y="-210.948" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;存在天气风险&quot;</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;存在天气风险&quot;]\n非支持证据:[]&#45;&gt;&quot;存在天气风险&quot; -->
+<g id="edge11" class="edge">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;存在天气风险&quot;]\n非支持证据:[]&#45;&gt;&quot;存在天气风险&quot;:n</title>
+<path fill="none" stroke="#000000" d="M502.3218,-281.5831C502.3218,-269.4781 502.3218,-255.483 502.3218,-242.0177"/>
+<polygon fill="#000000" stroke="#000000" points="502.3218,-231.8641 506.8219,-241.864 502.3218,-236.8641 502.3219,-241.8641 502.3219,-241.8641 502.3219,-241.8641 502.3218,-236.8641 497.8219,-241.8641 502.3218,-231.8641 502.3218,-231.8641"/>
+<text text-anchor="middle" x="506.2695" y="-252.6641" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;位于三跨点&quot;]\n非支持证据:[] -->
+<g id="node4" class="node">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;位于三跨点&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="777.4657,-348.564 611.1778,-348.564 611.1778,-281.9639 777.4657,-281.9639 777.4657,-348.564"/>
+<text text-anchor="middle" x="694.3218" y="-333.4638" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="694.3218" y="-313.8639" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;位于三跨点&quot;]</text>
+<text text-anchor="middle" x="694.3218" y="-294.264" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;位于三跨点&quot; -->
+<g id="node29" class="node">
+<title>&quot;位于三跨点&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="694.3218" cy="-212.348" rx="68.7866" ry="19.5322"/>
+<text text-anchor="middle" x="694.3218" y="-210.948" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;位于三跨点&quot;</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;位于三跨点&quot;]\n非支持证据:[]&#45;&gt;&quot;位于三跨点&quot; -->
+<g id="edge12" class="edge">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;位于三跨点&quot;]\n非支持证据:[]&#45;&gt;&quot;位于三跨点&quot;:n</title>
+<path fill="none" stroke="#000000" d="M694.3218,-281.5831C694.3218,-269.4781 694.3218,-255.483 694.3218,-242.0177"/>
+<polygon fill="#000000" stroke="#000000" points="694.3218,-231.8641 698.8219,-241.864 694.3218,-236.8641 694.3219,-241.8641 694.3219,-241.8641 694.3219,-241.8641 694.3218,-236.8641 689.8219,-241.8641 694.3218,-231.8641 694.3218,-231.8641"/>
+<text text-anchor="middle" x="698.2695" y="-252.6641" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;接地电阻大于阈值电阻&quot;]\n非支持证据:[] -->
+<g id="node5" class="node">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;接地电阻大于阈值电阻&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="1032.4656,-348.564 796.178,-348.564 796.178,-281.9639 1032.4656,-281.9639 1032.4656,-348.564"/>
+<text text-anchor="middle" x="914.3218" y="-333.4638" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="914.3218" y="-313.8639" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;接地电阻大于阈值电阻&quot;]</text>
+<text text-anchor="middle" x="914.3218" y="-294.264" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;接地电阻大于阈值电阻&quot; -->
+<g id="node17" class="node">
+<title>&quot;接地电阻大于阈值电阻&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="914.3218" cy="-212.348" rx="118.2814" ry="19.5322"/>
+<text text-anchor="middle" x="914.3218" y="-210.948" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;接地电阻大于阈值电阻&quot;</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;接地电阻大于阈值电阻&quot;]\n非支持证据:[]&#45;&gt;&quot;接地电阻大于阈值电阻&quot; -->
+<g id="edge13" class="edge">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;接地电阻大于阈值电阻&quot;]\n非支持证据:[]&#45;&gt;&quot;接地电阻大于阈值电阻&quot;:n</title>
+<path fill="none" stroke="#000000" d="M914.3218,-281.5831C914.3218,-269.4781 914.3218,-255.483 914.3218,-242.0177"/>
+<polygon fill="#000000" stroke="#000000" points="914.3218,-231.8641 918.8219,-241.864 914.3218,-236.8641 914.3219,-241.8641 914.3219,-241.8641 914.3219,-241.8641 914.3218,-236.8641 909.8219,-241.8641 914.3218,-231.8641 914.3218,-231.8641"/>
+<text text-anchor="middle" x="918.2695" y="-252.6641" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;故障类型为站内故障&quot;]\n非支持证据:[] -->
+<g id="node6" class="node">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;故障类型为站内故障&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="1273.4656,-348.564 1051.1779,-348.564 1051.1779,-281.9639 1273.4656,-281.9639 1273.4656,-348.564"/>
+<text text-anchor="middle" x="1162.3218" y="-333.4638" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="1162.3218" y="-313.8639" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;故障类型为站内故障&quot;]</text>
+<text text-anchor="middle" x="1162.3218" y="-294.264" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;故障类型为站内故障&quot; -->
+<g id="node18" class="node">
+<title>&quot;故障类型为站内故障&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="1162.3218" cy="-212.348" rx="108.4823" ry="19.5322"/>
+<text text-anchor="middle" x="1162.3218" y="-210.948" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;故障类型为站内故障&quot;</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;故障类型为站内故障&quot;]\n非支持证据:[]&#45;&gt;&quot;故障类型为站内故障&quot; -->
+<g id="edge14" class="edge">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;故障类型为站内故障&quot;]\n非支持证据:[]&#45;&gt;&quot;故障类型为站内故障&quot;:n</title>
+<path fill="none" stroke="#000000" d="M1162.3218,-281.5831C1162.3218,-269.4781 1162.3218,-255.483 1162.3218,-242.0177"/>
+<polygon fill="#000000" stroke="#000000" points="1162.3218,-231.8641 1166.8219,-241.864 1162.3218,-236.8641 1162.3219,-241.8641 1162.3219,-241.8641 1162.3219,-241.8641 1162.3218,-236.8641 1157.8219,-241.8641 1162.3218,-231.8641 1162.3218,-231.8641"/>
+<text text-anchor="middle" x="1166.2695" y="-252.6641" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;线缆类型为电缆&quot;]\n非支持证据:[] -->
+<g id="node7" class="node">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;线缆类型为电缆&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="1486.4657,-348.564 1292.1779,-348.564 1292.1779,-281.9639 1486.4657,-281.9639 1486.4657,-348.564"/>
+<text text-anchor="middle" x="1389.3218" y="-333.4638" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="1389.3218" y="-313.8639" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;线缆类型为电缆&quot;]</text>
+<text text-anchor="middle" x="1389.3218" y="-294.264" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;线缆类型为电缆&quot; -->
+<g id="node19" class="node">
+<title>&quot;线缆类型为电缆&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="1389.3218" cy="-212.348" rx="88.8848" ry="19.5322"/>
+<text text-anchor="middle" x="1389.3218" y="-210.948" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;线缆类型为电缆&quot;</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;线缆类型为电缆&quot;]\n非支持证据:[]&#45;&gt;&quot;线缆类型为电缆&quot; -->
+<g id="edge15" class="edge">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;线缆类型为电缆&quot;]\n非支持证据:[]&#45;&gt;&quot;线缆类型为电缆&quot;:n</title>
+<path fill="none" stroke="#000000" d="M1389.3218,-281.5831C1389.3218,-269.4781 1389.3218,-255.483 1389.3218,-242.0177"/>
+<polygon fill="#000000" stroke="#000000" points="1389.3218,-231.8641 1393.8219,-241.864 1389.3218,-236.8641 1389.3219,-241.8641 1389.3219,-241.8641 1389.3219,-241.8641 1389.3218,-236.8641 1384.8219,-241.8641 1389.3218,-231.8641 1389.3218,-231.8641"/>
+<text text-anchor="middle" x="1393.2695" y="-252.6641" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;匹配到异常信息关键字&quot;]\n非支持证据:[] -->
+<g id="node8" class="node">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;匹配到异常信息关键字&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="1741.4656,-348.564 1505.178,-348.564 1505.178,-281.9639 1741.4656,-281.9639 1741.4656,-348.564"/>
+<text text-anchor="middle" x="1623.3218" y="-333.4638" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="1623.3218" y="-313.8639" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;匹配到异常信息关键字&quot;]</text>
+<text text-anchor="middle" x="1623.3218" y="-294.264" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;匹配到异常信息关键字&quot; -->
+<g id="node20" class="node">
+<title>&quot;匹配到异常信息关键字&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="1623.3218" cy="-212.348" rx="118.2814" ry="19.5322"/>
+<text text-anchor="middle" x="1623.3218" y="-210.948" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;匹配到异常信息关键字&quot;</text>
+</g>
+<!-- 结论:[&quot;不复电&quot;]\n支持证据:[&quot;匹配到异常信息关键字&quot;]\n非支持证据:[]&#45;&gt;&quot;匹配到异常信息关键字&quot; -->
+<g id="edge16" class="edge">
+<title>结论:[&quot;不复电&quot;]\n支持证据:[&quot;匹配到异常信息关键字&quot;]\n非支持证据:[]&#45;&gt;&quot;匹配到异常信息关键字&quot;:n</title>
+<path fill="none" stroke="#000000" d="M1623.3218,-281.5831C1623.3218,-269.4781 1623.3218,-255.483 1623.3218,-242.0177"/>
+<polygon fill="#000000" stroke="#000000" points="1623.3218,-231.8641 1627.8219,-241.864 1623.3218,-236.8641 1623.3219,-241.8641 1623.3219,-241.8641 1623.3219,-241.8641 1623.3218,-236.8641 1618.8219,-241.8641 1623.3218,-231.8641 1623.3218,-231.8641"/>
+<text text-anchor="middle" x="1627.2695" y="-252.6641" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;强送&quot;]\n支持证据:[&quot;存在薄弱厂站&quot;]\n非支持证据:[] -->
+<g id="node9" class="node">
+<title>结论:[&quot;强送&quot;]\n支持证据:[&quot;存在薄弱厂站&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="180.4657,-348.564 .1779,-348.564 .1779,-281.9639 180.4657,-281.9639 180.4657,-348.564"/>
+<text text-anchor="middle" x="90.3218" y="-333.4638" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;强送&quot;]</text>
+<text text-anchor="middle" x="90.3218" y="-313.8639" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;存在薄弱厂站&quot;]</text>
+<text text-anchor="middle" x="90.3218" y="-294.264" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;存在薄弱厂站&quot; -->
+<g id="node24" class="node">
+<title>&quot;存在薄弱厂站&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="90.3218" cy="-212.348" rx="78.5859" ry="19.5322"/>
+<text text-anchor="middle" x="90.3218" y="-210.948" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;存在薄弱厂站&quot;</text>
+</g>
+<!-- 结论:[&quot;强送&quot;]\n支持证据:[&quot;存在薄弱厂站&quot;]\n非支持证据:[]&#45;&gt;&quot;存在薄弱厂站&quot; -->
+<g id="edge19" class="edge">
+<title>结论:[&quot;强送&quot;]\n支持证据:[&quot;存在薄弱厂站&quot;]\n非支持证据:[]&#45;&gt;&quot;存在薄弱厂站&quot;:n</title>
+<path fill="none" stroke="#000000" d="M90.3218,-281.5831C90.3218,-269.4781 90.3218,-255.483 90.3218,-242.0177"/>
+<polygon fill="#000000" stroke="#000000" points="90.3218,-231.8641 94.8219,-241.864 90.3218,-236.8641 90.3219,-241.8641 90.3219,-241.8641 90.3219,-241.8641 90.3218,-236.8641 85.8219,-241.8641 90.3218,-231.8641 90.3218,-231.8641"/>
+<text text-anchor="middle" x="94.2695" y="-252.6641" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;强送&quot;]\n支持证据:[&quot;存在全停变电站&quot;]\n非支持证据:[] -->
+<g id="node10" class="node">
+<title>结论:[&quot;强送&quot;]\n支持证据:[&quot;存在全停变电站&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="393.4657,-348.564 199.1779,-348.564 199.1779,-281.9639 393.4657,-281.9639 393.4657,-348.564"/>
+<text text-anchor="middle" x="296.3218" y="-333.4638" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;强送&quot;]</text>
+<text text-anchor="middle" x="296.3218" y="-313.8639" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;存在全停变电站&quot;]</text>
+<text text-anchor="middle" x="296.3218" y="-294.264" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;存在全停变电站&quot; -->
+<g id="node25" class="node">
+<title>&quot;存在全停变电站&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="296.3218" cy="-212.348" rx="88.8848" ry="19.5322"/>
+<text text-anchor="middle" x="296.3218" y="-210.948" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;存在全停变电站&quot;</text>
+</g>
+<!-- 结论:[&quot;强送&quot;]\n支持证据:[&quot;存在全停变电站&quot;]\n非支持证据:[]&#45;&gt;&quot;存在全停变电站&quot; -->
+<g id="edge20" class="edge">
+<title>结论:[&quot;强送&quot;]\n支持证据:[&quot;存在全停变电站&quot;]\n非支持证据:[]&#45;&gt;&quot;存在全停变电站&quot;:n</title>
+<path fill="none" stroke="#000000" d="M296.3218,-281.5831C296.3218,-269.4781 296.3218,-255.483 296.3218,-242.0177"/>
+<polygon fill="#000000" stroke="#000000" points="296.3218,-231.8641 300.8219,-241.864 296.3218,-236.8641 296.3219,-241.8641 296.3219,-241.8641 296.3219,-241.8641 296.3218,-236.8641 291.8219,-241.8641 296.3218,-231.8641 296.3218,-231.8641"/>
+<text text-anchor="middle" x="300.2695" y="-252.6641" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;建议强送&quot;]\n支持证据:[&quot;强送&quot;]\n非支持证据:[&quot;不复电&quot;] -->
+<g id="node11" class="node">
+<title>结论:[&quot;建议强送&quot;]\n支持证据:[&quot;强送&quot;]\n非支持证据:[&quot;不复电&quot;]</title>
+<polygon fill="none" stroke="#000000" points="703.4657,-541.3959 551.1778,-541.3959 551.1778,-474.7958 703.4657,-474.7958 703.4657,-541.3959"/>
+<text text-anchor="middle" x="627.3218" y="-526.2958" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;建议强送&quot;]</text>
+<text text-anchor="middle" x="627.3218" y="-506.6958" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;强送&quot;]</text>
+<text text-anchor="middle" x="627.3218" y="-487.0959" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[&quot;不复电&quot;]</text>
+</g>
+<!-- 结论:[&quot;建议强送&quot;]\n支持证据:[&quot;强送&quot;]\n非支持证据:[&quot;不复电&quot;]&#45;&gt;&quot;不复电&quot; -->
+<g id="edge23" class="edge">
+<title>结论:[&quot;建议强送&quot;]\n支持证据:[&quot;强送&quot;]\n非支持证据:[&quot;不复电&quot;]&#45;&gt;&quot;不复电&quot;:n</title>
+<path fill="none" stroke="#000000" d="M703.5575,-480.3139C743.3622,-464.8724 786.9434,-446.1935 802.4489,-433.1088"/>
+<polygon fill="#000000" stroke="#000000" points="808.3218,-424.696 806.2874,-435.4716 805.4597,-428.7958 802.5976,-432.8957 802.5976,-432.8957 802.5976,-432.8957 805.4597,-428.7958 798.9077,-430.3198 808.3218,-424.696 808.3218,-424.696"/>
+<text text-anchor="middle" x="787.6528" y="-445.496" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;</text>
+</g>
+<!-- 结论:[&quot;建议强送&quot;]\n支持证据:[&quot;强送&quot;]\n非支持证据:[&quot;不复电&quot;]&#45;&gt;&quot;强送&quot; -->
+<g id="edge22" class="edge">
+<title>结论:[&quot;建议强送&quot;]\n支持证据:[&quot;强送&quot;]\n非支持证据:[&quot;不复电&quot;]&#45;&gt;&quot;强送&quot;:n</title>
+<path fill="none" stroke="#000000" d="M550.8989,-475.3167C524.0704,-464.3248 493.5755,-452.4051 465.3218,-442.696 441.87,-434.637 412.6745,-448.3676 404.5239,-434.639"/>
+<polygon fill="#000000" stroke="#000000" points="402.3218,-424.696 408.8777,-433.4864 403.403,-429.5777 404.4842,-434.4594 404.4842,-434.4594 404.4842,-434.4594 403.403,-429.5777 400.0906,-435.4325 402.3218,-424.696 402.3218,-424.696"/>
+<text text-anchor="middle" x="504.2695" y="-445.496" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;不建议复电&quot;]\n支持证据:[&quot;不复电&quot;]\n非支持证据:[] -->
+<g id="node12" class="node">
+<title>结论:[&quot;不建议复电&quot;]\n支持证据:[&quot;不复电&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="877.4658,-541.3959 739.1778,-541.3959 739.1778,-474.7958 877.4658,-474.7958 877.4658,-541.3959"/>
+<text text-anchor="middle" x="808.3218" y="-526.2958" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;不建议复电&quot;]</text>
+<text text-anchor="middle" x="808.3218" y="-506.6958" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="808.3218" y="-487.0959" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- 结论:[&quot;不建议复电&quot;]\n支持证据:[&quot;不复电&quot;]\n非支持证据:[]&#45;&gt;&quot;不复电&quot; -->
+<g id="edge25" class="edge">
+<title>结论:[&quot;不建议复电&quot;]\n支持证据:[&quot;不复电&quot;]\n非支持证据:[]&#45;&gt;&quot;不复电&quot;:n</title>
+<path fill="none" stroke="#000000" d="M808.3218,-474.4151C808.3218,-462.31 808.3218,-448.315 808.3218,-434.8497"/>
+<polygon fill="#000000" stroke="#000000" points="808.3218,-424.696 812.8219,-434.696 808.3218,-429.696 808.3219,-434.696 808.3219,-434.696 808.3219,-434.696 808.3218,-429.696 803.8219,-434.6961 808.3218,-424.696 808.3218,-424.696"/>
+<text text-anchor="middle" x="812.2695" y="-445.496" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨铁路区&quot;]\n非支持证据:[] -->
+<g id="node14" class="node">
+<title>结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨铁路区&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="578.4657,-155.7321 384.1779,-155.7321 384.1779,-89.132 578.4657,-89.132 578.4657,-155.7321"/>
+<text text-anchor="middle" x="481.3218" y="-140.6319" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;位于三跨点&quot;]</text>
+<text text-anchor="middle" x="481.3218" y="-121.032" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;位于交跨铁路区&quot;]</text>
+<text text-anchor="middle" x="481.3218" y="-101.4321" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;位于交跨铁路区&quot; -->
+<g id="node21" class="node">
+<title>&quot;位于交跨铁路区&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="481.3218" cy="-19.5161" rx="88.8848" ry="19.5322"/>
+<text text-anchor="middle" x="481.3218" y="-18.116" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;位于交跨铁路区&quot;</text>
+</g>
+<!-- 结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨铁路区&quot;]\n非支持证据:[]&#45;&gt;&quot;位于交跨铁路区&quot; -->
+<g id="edge29" class="edge">
+<title>结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨铁路区&quot;]\n非支持证据:[]&#45;&gt;&quot;位于交跨铁路区&quot;:n</title>
+<path fill="none" stroke="#000000" d="M481.3218,-88.7512C481.3218,-76.6462 481.3218,-62.6511 481.3218,-49.1858"/>
+<polygon fill="#000000" stroke="#000000" points="481.3218,-39.0322 485.8219,-49.0321 481.3218,-44.0322 481.3219,-49.0322 481.3219,-49.0322 481.3219,-49.0322 481.3218,-44.0322 476.8219,-49.0322 481.3218,-39.0322 481.3218,-39.0322"/>
+<text text-anchor="middle" x="485.2695" y="-59.8322" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨线路区&quot;]\n非支持证据:[] -->
+<g id="node15" class="node">
+<title>结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨线路区&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="791.4657,-155.7321 597.1779,-155.7321 597.1779,-89.132 791.4657,-89.132 791.4657,-155.7321"/>
+<text text-anchor="middle" x="694.3218" y="-140.6319" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;位于三跨点&quot;]</text>
+<text text-anchor="middle" x="694.3218" y="-121.032" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;位于交跨线路区&quot;]</text>
+<text text-anchor="middle" x="694.3218" y="-101.4321" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;位于交跨线路区&quot; -->
+<g id="node22" class="node">
+<title>&quot;位于交跨线路区&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="694.3218" cy="-19.5161" rx="88.8848" ry="19.5322"/>
+<text text-anchor="middle" x="694.3218" y="-18.116" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;位于交跨线路区&quot;</text>
+</g>
+<!-- 结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨线路区&quot;]\n非支持证据:[]&#45;&gt;&quot;位于交跨线路区&quot; -->
+<g id="edge30" class="edge">
+<title>结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨线路区&quot;]\n非支持证据:[]&#45;&gt;&quot;位于交跨线路区&quot;:n</title>
+<path fill="none" stroke="#000000" d="M694.3218,-88.7512C694.3218,-76.6462 694.3218,-62.6511 694.3218,-49.1858"/>
+<polygon fill="#000000" stroke="#000000" points="694.3218,-39.0322 698.8219,-49.0321 694.3218,-44.0322 694.3219,-49.0322 694.3219,-49.0322 694.3219,-49.0322 694.3218,-44.0322 689.8219,-49.0322 694.3218,-39.0322 694.3218,-39.0322"/>
+<text text-anchor="middle" x="698.2695" y="-59.8322" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- 结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨高速区&quot;]\n非支持证据:[] -->
+<g id="node16" class="node">
+<title>结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨高速区&quot;]\n非支持证据:[]</title>
+<polygon fill="none" stroke="#000000" points="1004.4657,-155.7321 810.1779,-155.7321 810.1779,-89.132 1004.4657,-89.132 1004.4657,-155.7321"/>
+<text text-anchor="middle" x="907.3218" y="-140.6319" font-family="Times,serif" font-size="14.00" fill="#000000">结论:[&quot;位于三跨点&quot;]</text>
+<text text-anchor="middle" x="907.3218" y="-121.032" font-family="Times,serif" font-size="14.00" fill="#000000">支持证据:[&quot;位于交跨高速区&quot;]</text>
+<text text-anchor="middle" x="907.3218" y="-101.4321" font-family="Times,serif" font-size="14.00" fill="#000000">非支持证据:[]</text>
+</g>
+<!-- &quot;位于交跨高速区&quot; -->
+<g id="node23" class="node">
+<title>&quot;位于交跨高速区&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="907.3218" cy="-19.5161" rx="88.8848" ry="19.5322"/>
+<text text-anchor="middle" x="907.3218" y="-18.116" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;位于交跨高速区&quot;</text>
+</g>
+<!-- 结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨高速区&quot;]\n非支持证据:[]&#45;&gt;&quot;位于交跨高速区&quot; -->
+<g id="edge31" class="edge">
+<title>结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨高速区&quot;]\n非支持证据:[]&#45;&gt;&quot;位于交跨高速区&quot;:n</title>
+<path fill="none" stroke="#000000" d="M907.3218,-88.7512C907.3218,-76.6462 907.3218,-62.6511 907.3218,-49.1858"/>
+<polygon fill="#000000" stroke="#000000" points="907.3218,-39.0322 911.8219,-49.0321 907.3218,-44.0322 907.3219,-49.0322 907.3219,-49.0322 907.3219,-49.0322 907.3218,-44.0322 902.8219,-49.0322 907.3218,-39.0322 907.3218,-39.0322"/>
+<text text-anchor="middle" x="911.2695" y="-59.8322" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- &quot;建议复电&quot; -->
+<g id="node26" class="node">
+<title>&quot;建议复电&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="402.3218" cy="-598.0118" rx="58.9874" ry="19.5322"/>
+<text text-anchor="middle" x="402.3218" y="-596.6118" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;建议复电&quot;</text>
+</g>
+<!-- &quot;建议复电&quot;&#45;&gt;结论:[&quot;建议复电&quot;]\n支持证据:[&quot;复电&quot;]\n非支持证据:[&quot;不复电&quot;,&quot;强送&quot;] -->
+<g id="edge1" class="edge">
+<title>&quot;建议复电&quot;&#45;&gt;结论:[&quot;建议复电&quot;]\n支持证据:[&quot;复电&quot;]\n非支持证据:[&quot;不复电&quot;,&quot;强送&quot;]:n</title>
+<path fill="none" stroke="#000000" d="M402.3218,-578.2566C402.3218,-570.2153 402.3218,-560.6049 402.3218,-551.1749"/>
+<polygon fill="#000000" stroke="#000000" points="402.3218,-541.0959 406.8219,-551.0958 402.3218,-546.0959 402.3219,-551.0959 402.3219,-551.0959 402.3219,-551.0959 402.3218,-546.0959 397.8219,-551.0959 402.3218,-541.0959 402.3218,-541.0959"/>
+</g>
+<!-- &quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;存在天气风险&quot;]\n非支持证据:[] -->
+<g id="edge5" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;存在天气风险&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M760.1727,-401.1191C683.4241,-394.0646 538.8533,-378.1976 508.1465,-356.5114"/>
+<polygon fill="#000000" stroke="#000000" points="502.3218,-348.264 511.7664,-353.8362 505.2062,-352.3481 508.0907,-356.4322 508.0907,-356.4322 508.0907,-356.4322 505.2062,-352.3481 504.4149,-359.0282 502.3218,-348.264 502.3218,-348.264"/>
+</g>
+<!-- &quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;位于三跨点&quot;]\n非支持证据:[] -->
+<g id="edge6" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;位于三跨点&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M760.636,-400.0596C732.9359,-394.4667 702.2193,-382.7655 695.6155,-358.2857"/>
+<polygon fill="#000000" stroke="#000000" points="694.3218,-348.264 700.0652,-357.6055 694.962,-353.2228 695.6022,-358.1817 695.6022,-358.1817 695.6022,-358.1817 694.962,-353.2228 691.1392,-358.7579 694.3218,-348.264 694.3218,-348.264"/>
+</g>
+<!-- &quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;接地电阻大于阈值电阻&quot;]\n非支持证据:[] -->
+<g id="edge7" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;接地电阻大于阈值电阻&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M854.8149,-398.4993C879.7357,-392.3571 906.6051,-380.6516 912.933,-358.4406"/>
+<polygon fill="#000000" stroke="#000000" points="914.3218,-348.264 917.4282,-358.7806 913.6457,-353.218 912.9696,-358.1721 912.9696,-358.1721 912.9696,-358.1721 913.6457,-353.218 908.5109,-357.5636 914.3218,-348.264 914.3218,-348.264"/>
+</g>
+<!-- &quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;故障类型为站内故障&quot;]\n非支持证据:[] -->
+<g id="edge8" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;故障类型为站内故障&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M857.1723,-402.3168C944.8002,-396.5883 1122.7472,-382.0534 1156.6668,-356.831"/>
+<polygon fill="#000000" stroke="#000000" points="1162.3218,-348.264 1160.5684,-359.0888 1159.5673,-352.4369 1156.8128,-356.6098 1156.8128,-356.6098 1156.8128,-356.6098 1159.5673,-352.4369 1153.0572,-354.1307 1162.3218,-348.264 1162.3218,-348.264"/>
+</g>
+<!-- &quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;线缆类型为电缆&quot;]\n非支持证据:[] -->
+<g id="edge9" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;线缆类型为电缆&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M857.3568,-402.9284C985.6643,-396.7422 1325.2721,-378.3713 1381.4106,-354.8562"/>
+<polygon fill="#000000" stroke="#000000" points="1389.3218,-348.264 1384.5201,-358.1227 1385.4806,-351.4648 1381.6393,-354.6656 1381.6393,-354.6656 1381.6393,-354.6656 1385.4806,-351.4648 1378.7586,-351.2085 1389.3218,-348.264 1389.3218,-348.264"/>
+</g>
+<!-- &quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;匹配到异常信息关键字&quot;]\n非支持证据:[] -->
+<g id="edge10" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;结论:[&quot;不复电&quot;]\n支持证据:[&quot;匹配到异常信息关键字&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M857.4683,-404.3334C1022.3153,-401.1953 1549.0298,-388.6444 1616.2418,-355.4273"/>
+<polygon fill="#000000" stroke="#000000" points="1623.3218,-348.264 1619.4927,-358.5396 1619.807,-351.8201 1616.2922,-355.3763 1616.2922,-355.3763 1616.2922,-355.3763 1619.807,-351.8201 1613.0916,-352.213 1623.3218,-348.264 1623.3218,-348.264"/>
+</g>
+<!-- &quot;强送&quot;&#45;&gt;结论:[&quot;强送&quot;]\n支持证据:[&quot;存在薄弱厂站&quot;]\n非支持证据:[] -->
+<g id="edge17" class="edge">
+<title>&quot;强送&quot;&#45;&gt;结论:[&quot;强送&quot;]\n支持证据:[&quot;存在薄弱厂站&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M373.2684,-392.0408C367.1081,-389.6322 360.5753,-387.3505 354.3218,-385.6638 300.6892,-371.1981 115.5865,-403.062 92.6581,-358.279"/>
+<polygon fill="#000000" stroke="#000000" points="90.3218,-348.264 96.976,-356.9801 91.4577,-353.1332 92.5937,-358.0025 92.5937,-358.0025 92.5937,-358.0025 91.4577,-353.1332 88.2114,-359.0248 90.3218,-348.264 90.3218,-348.264"/>
+</g>
+<!-- &quot;强送&quot;&#45;&gt;结论:[&quot;强送&quot;]\n支持证据:[&quot;存在全停变电站&quot;]\n非支持证据:[] -->
+<g id="edge18" class="edge">
+<title>&quot;强送&quot;&#45;&gt;结论:[&quot;强送&quot;]\n支持证据:[&quot;存在全停变电站&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M372.5128,-392.3623C348.5088,-381.6872 316.5991,-366.6053 302.9601,-356.22"/>
+<polygon fill="#000000" stroke="#000000" points="296.3218,-348.264 306.1836,-353.0593 299.5251,-352.1031 302.7284,-355.9423 302.7284,-355.9423 302.7284,-355.9423 299.5251,-352.1031 299.2731,-358.8252 296.3218,-348.264 296.3218,-348.264"/>
+</g>
+<!-- &quot;位于三跨点&quot;&#45;&gt;结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨铁路区&quot;]\n非支持证据:[] -->
+<g id="edge26" class="edge">
+<title>&quot;位于三跨点&quot;&#45;&gt;结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨铁路区&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M639.469,-200.3967C587.6987,-188.8002 514.4448,-171.4774 489.7907,-161.1103"/>
+<polygon fill="#000000" stroke="#000000" points="481.3218,-155.432 492.1337,-157.2633 485.4747,-158.2165 489.6277,-161.001 489.6277,-161.001 489.6277,-161.001 485.4747,-158.2165 487.1216,-164.7386 481.3218,-155.432 481.3218,-155.432"/>
+</g>
+<!-- &quot;位于三跨点&quot;&#45;&gt;结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨线路区&quot;]\n非支持证据:[] -->
+<g id="edge27" class="edge">
+<title>&quot;位于三跨点&quot;&#45;&gt;结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨线路区&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M694.3218,-192.5927C694.3218,-184.5515 694.3218,-174.9411 694.3218,-165.511"/>
+<polygon fill="#000000" stroke="#000000" points="694.3218,-155.432 698.8219,-165.432 694.3218,-160.432 694.3219,-165.432 694.3219,-165.432 694.3219,-165.432 694.3218,-160.432 689.8219,-165.4321 694.3218,-155.432 694.3218,-155.432"/>
+</g>
+<!-- &quot;位于三跨点&quot;&#45;&gt;结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨高速区&quot;]\n非支持证据:[] -->
+<g id="edge28" class="edge">
+<title>&quot;位于三跨点&quot;&#45;&gt;结论:[&quot;位于三跨点&quot;]\n支持证据:[&quot;位于交跨高速区&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M749.1746,-200.3967C800.9448,-188.8002 874.1987,-171.4774 898.8528,-161.1103"/>
+<polygon fill="#000000" stroke="#000000" points="907.3218,-155.432 901.5219,-164.7386 903.1688,-158.2165 899.0159,-161.001 899.0159,-161.001 899.0159,-161.001 903.1688,-158.2165 896.5099,-157.2633 907.3218,-155.432 907.3218,-155.432"/>
+</g>
+<!-- &quot;建议强送&quot; -->
+<g id="node30" class="node">
+<title>&quot;建议强送&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="627.3218" cy="-598.0118" rx="58.9874" ry="19.5322"/>
+<text text-anchor="middle" x="627.3218" y="-596.6118" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;建议强送&quot;</text>
+</g>
+<!-- &quot;建议强送&quot;&#45;&gt;结论:[&quot;建议强送&quot;]\n支持证据:[&quot;强送&quot;]\n非支持证据:[&quot;不复电&quot;] -->
+<g id="edge21" class="edge">
+<title>&quot;建议强送&quot;&#45;&gt;结论:[&quot;建议强送&quot;]\n支持证据:[&quot;强送&quot;]\n非支持证据:[&quot;不复电&quot;]:n</title>
+<path fill="none" stroke="#000000" d="M627.3218,-578.2566C627.3218,-570.2153 627.3218,-560.6049 627.3218,-551.1749"/>
+<polygon fill="#000000" stroke="#000000" points="627.3218,-541.0959 631.8219,-551.0958 627.3218,-546.0959 627.3219,-551.0959 627.3219,-551.0959 627.3219,-551.0959 627.3218,-546.0959 622.8219,-551.0959 627.3218,-541.0959 627.3218,-541.0959"/>
+</g>
+<!-- &quot;不建议复电&quot; -->
+<g id="node31" class="node">
+<title>&quot;不建议复电&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="808.3218" cy="-598.0118" rx="68.7866" ry="19.5322"/>
+<text text-anchor="middle" x="808.3218" y="-596.6118" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;不建议复电&quot;</text>
+</g>
+<!-- &quot;不建议复电&quot;&#45;&gt;结论:[&quot;不建议复电&quot;]\n支持证据:[&quot;不复电&quot;]\n非支持证据:[] -->
+<g id="edge24" class="edge">
+<title>&quot;不建议复电&quot;&#45;&gt;结论:[&quot;不建议复电&quot;]\n支持证据:[&quot;不复电&quot;]\n非支持证据:[]:n</title>
+<path fill="none" stroke="#000000" d="M808.3218,-578.2566C808.3218,-570.2153 808.3218,-560.6049 808.3218,-551.1749"/>
+<polygon fill="#000000" stroke="#000000" points="808.3218,-541.0959 812.8219,-551.0958 808.3218,-546.0959 808.3219,-551.0959 808.3219,-551.0959 808.3219,-551.0959 808.3218,-546.0959 803.8219,-551.0959 808.3218,-541.0959 808.3218,-541.0959"/>
+</g>
+</g>
+</svg>

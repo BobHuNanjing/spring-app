@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>添加规则</title>
+    <script th:src="@{/js/jquery.slim.js}"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+<h1>规则添加</h1>
+<form class="form-select-button" method="POST">
+    结论：<input type="text" name="head"/><br><br>
+    正体部：<input type="text" name="pBody"/><br><br>
+    负体部：<input type="text" name="nBody"/><br><br>
+    <button class="btn btn-default btn-sm" type="submit" value="xxx">xxx</button>
+    <button class="btn btn-outline-success" type="submit" value="提交规则">提交规则</button><br><br>
+</form>
+
+<h1>规则列表</h1>
+
+<table class="table table-striped">
+    <thead>
+        <th>ID</th>
+        <th>Head</th>
+        <th>PositiveBody</th>
+        <th>NegativeBody</th>
+    </thead>
+    <!--/*@thymesVar id="ruleList" type="java.util.List"*/-->
+    <tr th:each="rule : ${ruleList}">
+        <td th:text="${rule.getRuleID()}"></td>
+        <td th:text="${rule.getRuleHead()}"></td>
+        <td th:text="${rule.getRulePosBody()}"></td>
+        <td th:text="${rule.getRuleNegBody()}"></td>
+    </tr>
+</table>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>解释图展示</title>
+    <script th:src="@{/js/jquery.slim.js}"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<!--/*@thymesVar id="alert_message" type=""*/-->
+<span th:text="${alert_message}"/>
+
+<form method="POST">
+    文件名:<input type="text" name="filename"/>
+    <input type="submit">
+</form>
+
+<!--/*@thymesVar id="pic_name" type=""*/-->
+<img th:src="@{${pic_name}}"/>
+</div>
+</body>
+</html>
