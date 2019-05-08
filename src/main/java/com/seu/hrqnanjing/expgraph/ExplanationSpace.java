@@ -12,7 +12,7 @@ public class ExplanationSpace {
     ArrayList<RuleToLiteralEdge> ruleToLiteralEdgeList = new ArrayList<>();
 
     public void initExplanationSpace() {
-        RuleLoader ruleLoader = new RuleLoader("/Users/bobhu/project/exp_tree/rules.txt");
+        RuleLoader ruleLoader = new RuleLoader("/Users/bobhu/project/spring-app/result.txt");
         ruleLoader.loadRulesIntoList();
         ArrayList<Rule> rList = ruleLoader.getRules();
         constructionOfNodeAndEdge(rList);

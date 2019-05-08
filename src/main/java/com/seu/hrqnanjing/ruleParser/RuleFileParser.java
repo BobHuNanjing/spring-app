@@ -4,14 +4,16 @@ import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
+import org.springframework.stereotype.Component;
 
 import java.io.*;
 
-public class DemoTest {
-    public static void main(String[] args) throws IOException {
+@Component
+public class RuleFileParser {
+    public void parse(String filename) throws IOException {
         try {
             File ruleFile = new File("rules.lp");
-            InputStreamReader inputReader = new InputStreamReader(new FileInputStream(ruleFile));
+            InputStreamReader inputReader = new InputStreamReader(new FileInputStream(filename));
             BufferedReader bf = new BufferedReader(inputReader);
             // 按行读取字符串
             String str;

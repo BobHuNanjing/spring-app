@@ -3,6 +3,7 @@ package com.seu.hrqnanjing.demo;
 import com.seu.hrqnanjing.database.RuleDataBase;
 import com.seu.hrqnanjing.expgraph.ExplanationSpace;
 import com.seu.hrqnanjing.expgraph.GraphvizDraw;
+import com.seu.hrqnanjing.ruleParser.RuleFileParser;
 import com.seu.hrqnanjing.service.GraphService;
 import com.seu.hrqnanjing.service.NameValidationService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +26,9 @@ public class HomeController {
 
     @Autowired
     private RuleDataBase ruleDataBase;
+
+    @Autowired
+    private RuleFileParser ruleFileParser;
 
     @GetMapping({"/", "/home"})
     public String showHomePage() {
@@ -57,6 +61,16 @@ public class HomeController {
 
         //}
         return "showGraph";
+    }
+
+    @GetMapping("/loadFromFile")
+    public String showLoadPage(){
+        return "loadFromFile";
+    }
+    @PostMapping("/loadFromFile")
+    public String loadRuleFile(@RequestParam String filename) throws IOException {
+        ruleFileParser.parse(filename);
+        return "loadFromFile";
     }
 
     @GetMapping("/addRules")

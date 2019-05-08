@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>从文件添加</title>
+</head>
+<body>
+<form method="POST">
+    规则文件名:<input type="text" name="filename"/>
+    <input type="submit">
+</form>
+<form method="POST">
+    <button>查看解释</button>
+    <img th:src="@{${pic_name}}"/>
+</form>
+
+</body>
+</html>
