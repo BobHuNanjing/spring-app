@@ -68,17 +68,17 @@ public class RuleLoader {
             count = 0;
 
             for (String str :
-                    head.split("\\,")) {
+                    head.split("\\&")) {
                 heads.add(str);
             }
             ruleList.put("head", heads);
             for (String str :
-                    pos.split("\\,")) {
+                    pos.split("\\&")) {
                 pBody.add(str);
             }
             ruleList.put("positiveBody", pBody);
             for (String str :
-                    neg.split("\\,")) {
+                    neg.split("\\&")) {
                 nBody.add(str);
             }
             ruleList.put("negativeBody", nBody);

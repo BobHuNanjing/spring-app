@@ -41,7 +41,7 @@ public class GraphvizDraw {
             MutableNode mutableNode = mutNode(litNode.getNodeElement());
             for (Edge e : litNode.getEdgeList()) {
                 MutableNode endNode = mutNode(e.endNode.getNodeElement());
-                mutableNode.addLink(to(endNode.port(Compass.NORTH)).add(Arrow.VEE));
+                mutableNode.addLink(to(endNode).add(Arrow.VEE));
             }
             mutableNodes.add(mutableNode);
             g.add(mutableNode);
@@ -51,7 +51,7 @@ public class GraphvizDraw {
             MutableNode mutableNode = mutNode(ruleNode.getNodeElement()).add(Shape.RECTANGLE);
             for (Edge e : ruleNode.getEdgeList()) {
                 MutableNode endNode = mutNode(e.endNode.getNodeElement());
-                mutableNode.addLink(to(endNode.port(Compass.NORTH)).add(Label.of(e.getEdgeElement())).add(Arrow.VEE));
+                mutableNode.addLink(to(endNode).add(Label.of(e.getEdgeElement())).add(Arrow.VEE));
             }
             mutableNodes.add(mutableNode);
             g.add(mutableNode);
@@ -60,7 +60,7 @@ public class GraphvizDraw {
 
     public void displayGraph(String filename) {
         try {
-            Graphviz.fromGraph(g).scale(0.5).render(Format.SVG).toFile(new File(filename));
+            Graphviz.fromGraph(g).scale(0.1).render(Format.SVG).toFile(new File(filename));
         } catch (IOException e) {
             e.printStackTrace();
         }

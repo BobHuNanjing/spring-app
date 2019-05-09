@@ -19,24 +19,16 @@ public class RuleNode extends Node{
     @Override
     @JsonIgnore
     public String getNodeElement() {
-        String ruleNodeElement = "结论:[";
-        for (String headLit : rule.getHead()) {
-            ruleNodeElement = ruleNodeElement + headLit + ",";
+        if(rule.getNegativeBody().size()==0 && rule.getPositiveBody().size()==0){
+            return "事实："+rule.getHead().toString();
         }
-        ruleNodeElement = ruleNodeElement.substring(0,ruleNodeElement.length()-1) + "]\n";
+        String ruleNodeElement = "结论:";
+        ruleNodeElement += rule.getHead().toString()+"\n";
+        ruleNodeElement += "支持证据:";
+        ruleNodeElement += rule.getPositiveBody().toString()+"\n";
 
-        ruleNodeElement += "支持证据:[";
-        for (String posLit : rule.getPositiveBody()) {
-            ruleNodeElement = ruleNodeElement + posLit + ",";
-        }
-        ruleNodeElement = ruleNodeElement.substring(0,ruleNodeElement.length()-1) + "]\n";
-
-        ruleNodeElement += "非支持证据:[";
-        for (String negLit : rule.getNegativeBody()) {
-            ruleNodeElement = ruleNodeElement + negLit + ",";
-        }
-
-        ruleNodeElement = ruleNodeElement.substring(0,ruleNodeElement.length()-1) + "]";
+        ruleNodeElement += "非支持证据:";
+        ruleNodeElement += rule.getNegativeBody().toString()+"\n";
 
         return ruleNodeElement;
     }

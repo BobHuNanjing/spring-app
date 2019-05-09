@@ -40,7 +40,8 @@ public class Rule {
     public void setHead(HashSet<String> str) {
         //System.out.println("Head"+str+val);
         for (String item: str) {
-            head.add(item);
+            if(item.length()!=0)
+                head.add(item);
         }
     }
 
@@ -50,7 +51,8 @@ public class Rule {
 
     public void setPositiveBody(HashSet<String> str) {
         for (String item: str) {
-            positiveBody.add(item);
+            if(item.length()!=0)
+                positiveBody.add(item);
         }
     }
 
@@ -60,7 +62,8 @@ public class Rule {
 
     public void setNegativeBody(HashSet<String> str) {
         for (String item: str) {
-            negativeBody.add(item);
+            if(item.length()!=0)
+                negativeBody.add(item);
         }
     }
 

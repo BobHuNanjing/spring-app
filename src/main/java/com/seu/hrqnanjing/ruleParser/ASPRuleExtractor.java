@@ -3,8 +3,10 @@ package com.seu.hrqnanjing.ruleParser;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -29,6 +31,8 @@ public class ASPRuleExtractor extends LPMLNBaseVisitor {
         return super.visitHead(ctx);
     }
 
+
+
     public void putTextToFile(String filename) throws IOException {
         HashMap<String, HashSet<String>> rule = new HashMap<>();
         rule.put("head", new HashSet<String>());
@@ -50,12 +54,26 @@ public class ASPRuleExtractor extends LPMLNBaseVisitor {
             file.createNewFile();
         }
         FileOutputStream outputStream = new FileOutputStream(file,true);
-        outputStream.write(rule.get("head").toString().getBytes());
-        outputStream.write((","+rule.get("pBody").toString()).getBytes());
-        outputStream.write((","+rule.get("nBody").toString()).getBytes());
+        outputStream.write(convertListToString(rule.get("head")).getBytes());
+        outputStream.write((","+convertListToString(rule.get("pBody"))).getBytes());
+        outputStream.write((","+convertListToString(rule.get("nBody"))).getBytes());
         outputStream.write(("\r\n").getBytes());
         outputStream.close();
 
+    }
+
+    private String convertListToString(HashSet<String> list) {
+        if(list.size()==0)
+                return "[]";
+
+        String val = "";
+        for (String str : list) {
+            val = val + str + "&";
+        }
+
+        val = val.substring(0, val.length()-1);
+
+        return "[" + val + "]";
     }
 
     public int getIndexOrAddItemsIntoLiteralAndLiteralMap(String head) {
